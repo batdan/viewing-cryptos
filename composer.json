@@ -1,0 +1,13 @@
+{
+    "name": "vw/cryptos",
+    "type": "library",
+    "licence": "proprietary",
+    "autoload": {
+        "classmap": [
+                "lib/"
+        ]
+    },
+    "require": {
+        "swiftmailer/swiftmailer": "@stable"
+    }
+}

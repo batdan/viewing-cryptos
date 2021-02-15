@@ -2,12 +2,19 @@
     "name": "vw/cryptos",
     "type": "library",
     "licence": "proprietary",
+    "authors": [{
+		"name": "Daniel Gomes",
+		"role": "Developer"
+ 	}],
     "autoload": {
         "classmap": [
-                "lib/"
+            "lib/"
         ]
     },
     "require": {
         "swiftmailer/swiftmailer": "@stable"
-    }
+    },
+	"license": [
+	   "GPL-3.0-or-later"
+	]
 }
